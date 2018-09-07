@@ -1,1 +1,0 @@
-# choipaper.github.io
