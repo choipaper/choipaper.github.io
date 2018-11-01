@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="movingHead.js" type="text/javascript" defer></script>
+        <title>Assignement7</title>
+        <style>
+            button {
+                height: 40px;
+                width: 50px;
+            }
+            #reset {
+                float: left;
+            }
+            #up {
+                margin-left: 50px;
+            }
+            #left {
+                margin-left: 40px;
+            }
+            #right {
+                margin-left: 60px;
+            }
+            #down {
+                margin-left: 100px;
+            }
+            
+        </style>
+    </head>
+    <body onload="drawObject(0,0)">
+        <h2>Moving head</h2>
+        <canvas id="canvas" width="500" height="500" style="border: 1px solid black"></canvas>
+        <br>
+        <button id="reset" type="button">reset</button>
+        <br><br>
+        <button id="up" value="u" type="button">up</button>
+        <br><br>
+        <button id="left" value="l" type="button">left</button>
+        <button id="right" value="r" type="button">right</button>
+        <br><br>
+        <button id="down" value="d" type="button">down</button>
+        
+        
+    </body>
+</html>
